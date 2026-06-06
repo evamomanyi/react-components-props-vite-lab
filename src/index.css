@@ -12,7 +12,7 @@ body {
 
 header {
   background-color: #222;
-  color: white;
+  color: rgb(241, 235, 235);
   text-align: center;
   padding: 20px;
 }
@@ -33,7 +33,7 @@ main {
 }
 
 article {
-  background: white;
+  background: rgb(255, 255, 255);
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 5px;

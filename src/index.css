@@ -1,59 +1,48 @@
-:root {
-  --bg: #282c34;
-  --header: #fff;
-  --link: #61dafb;
-  --text: hsla(0, 0%, 100%, 0.88);
-}
-
 body {
   margin: 0;
-  font-family: "Merriweather", "Georgia", serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: var(--bg);
-  color: var(--text);
-}
-
-h1,
-h3 {
-  font-size: 2em;
-  font-family: Montserrat, sans-serif;
-  font-weight: 900;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
 }
 
 .App {
-  margin-left: auto;
-  margin-right: auto;
-  padding: 2.5rem 1rem;
-  max-width: 700px;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
 }
 
-header h1 {
-  font-size: 3em;
+header {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
 
 aside {
-  display: flex;
-  margin-bottom: 3rem;
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
 }
 
 aside img {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  margin-right: 1rem;
-  background-color: black;
+  border-radius: 10px;
+}
+
+main {
+  margin-top: 20px;
 }
 
 article {
-  margin-bottom: 3rem;
-}
-
-article p {
-  margin-top: 0.25rem;
+  background: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
 }
 
 article h3 {
-  color: var(--link);
-  margin-bottom: 0rem;
+  margin-bottom: 5px;
+}
+
+article small {
+  color: gray;
 }
